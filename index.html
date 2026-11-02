@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mithra B — Software Developer building full-stack applications and AI-powered products." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Mithra B | Software Developer & AI Enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="progress" id="progress"></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Mithra home"><span class="brand-mark">M</span><span>mithra<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a>
+        <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO SOFTWARE & AI OPPORTUNITIES</div>
+        <h1>Building useful<br><span class="gradient-text">digital experiences.</span></h1>
+        <p class="hero-lede">Hi, I'm <strong>Mithra B</strong> — a software developer interested in full-stack engineering and AI-powered applications. I turn ideas into practical products with clean interfaces and thoughtful backend logic.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-ghost" href="Mithra_B_Resume.pdf" target="_blank" rel="noreferrer">View resume <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Based in Tamil Nadu, India</span><span>Python · JavaScript · AI/ML</span></div>
+      </div>
+      <div class="hero-art reveal delay-2" aria-label="Decorative animated developer illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.py</span><span class="window-lock">⌘</span></div>
+          <div class="code-lines">
+            <div><span class="ln">01</span><span class="purple">class</span> <span class="cyan">Developer</span>:</div>
+            <div><span class="ln">02</span>&nbsp;&nbsp;<span class="purple">def</span> <span class="yellow">build</span>(self):</div>
+            <div><span class="ln">03</span>&nbsp;&nbsp;&nbsp;&nbsp;skills = [</div>
+            <div><span class="ln">04</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">"Full-stack"</span>,</div>
+            <div><span class="ln">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">"AI / ML"</span>,</div>
+            <div><span class="ln">06</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">"Problem solving"</span></div>
+            <div><span class="ln">07</span>&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+            <div><span class="ln">08</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">return</span> <span class="cyan">impact</span></div>
+            <div class="code-cursor"><span class="ln">09</span>&nbsp;</div>
+          </div>
+          <div class="window-footer"><span><i class="footer-dot"></i> Ready to build</span><span>UTF-8&nbsp; · &nbsp;Python</span></div>
+        </div>
+        <div class="floating-card float-top"><span class="float-icon">✳</span><span><b>AI / ML</b><small>Practical applications</small></span></div>
+        <div class="floating-card float-bottom"><span class="float-icon purple-icon">⌘</span><span><b>Full-stack</b><small>From UI to API</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-mouse"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-label reveal"><span>01 / ABOUT</span><div class="label-rule"></div></div>
+        <div class="about-content reveal">
+          <h2>Curious by nature.<br><span class="muted-heading">Builder by choice.</span></h2>
+          <p class="large-copy">I enjoy working at the intersection of software development and applied AI — building tools that solve real problems, from image-classification applications to responsive web experiences.</p>
+          <p>My experience includes a full-stack developer internship, Python and Flask backend development, SQL databases, and integrating machine-learning models into applications. I'm continually improving my engineering fundamentals and exploring how AI features can become reliable products.</p>
+          <div class="about-facts">
+            <div><strong>01</strong><span>AI-powered projects</span></div>
+            <div><strong>02</strong><span>Internship experiences</span></div>
+            <div><strong>∞</strong><span>Things to learn</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><div class="section-label"><span>02 / TOOLKIT</span></div><h2>Tools I work with<span class="accent">.</span></h2><p>A practical toolkit for building, connecting, and shipping applications.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-symbol">⌘</div><h3>Languages</h3><div class="tags"><span>Python</span><span>JavaScript</span><span>SQL</span><span>PHP</span></div></article>
+          <article class="skill-card reveal delay-1"><div class="skill-symbol">▣</div><h3>Web & Backend</h3><div class="tags"><span>Flask</span><span>HTML</span><span>CSS</span><span>React Native</span><span>WordPress</span></div></article>
+          <article class="skill-card reveal delay-2"><div class="skill-symbol">✳</div><h3>AI & Data</h3><div class="tags"><span>CNN</span><span>ONNX</span><span>OpenCV</span><span>Machine Learning</span><span>Generative AI</span></div></article>
+          <article class="skill-card reveal delay-3"><div class="skill-symbol">◈</div><h3>Tools & Databases</h3><div class="tags"><span>MySQL</span><span>Firebase</span><span>Cloudinary</span><span>Linux</span><span>GitHub</span></div></article>
+        </div>
+        <p class="skill-note"><span class="note-star">✳</span> Currently strengthening React.js, Node.js, APIs, DSA and LLM application development.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><div class="section-label"><span>03 / SELECTED WORK</span></div><h2>Projects with a purpose<span class="accent">.</span></h2><p>A selection of applications exploring AI, backend systems, and user-focused experiences.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-feature reveal">
+            <div class="project-visual visual-pneumonia"><div class="visual-grid"></div><div class="scan-frame"><span class="scan-corner c1"></span><span class="scan-corner c2"></span><span class="scan-corner c3"></span><span class="scan-corner c4"></span><div class="xray-shape">✧</div><div class="scan-label">IMAGE ANALYSIS / CNN</div></div><span class="visual-index">PROJECT 01</span></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">AI · COMPUTER VISION</span><span class="project-arrow">↗</span></div><h3>Pneumonia Detection System</h3><p>An AI-powered web application that classifies chest X-ray images into Normal, Bacterial Pneumonia, and Viral Pneumonia categories using a CNN model.</p><div class="project-tags"><span>Python</span><span>CNN</span><span>Flask</span><span>OpenCV</span><span>MySQL</span></div><div class="project-links"><a href="https://github.com/Mithss05" target="_blank" rel="noreferrer">View code on GitHub <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal delay-1">
+            <div class="project-visual visual-autism"><div class="phone phone-back"></div><div class="phone"><div class="phone-top"></div><div class="phone-title"></div><div class="phone-image"><span>✳</span></div><div class="phone-bar"></div><div class="phone-bar short"></div><div class="phone-button"></div></div><span class="visual-index">PROJECT 02</span></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">MOBILE · AI/ML</span><span class="project-arrow">↗</span></div><h3>Autism Detection Mobile App</h3><p>A mobile application integrating image classification through a Flask API and ONNX model, with image upload and prediction visualization.</p><div class="project-tags"><span>React Native</span><span>Python</span><span>ONNX</span><span>Flask</span><span>Firebase</span></div><div class="project-links"><a href="https://github.com/Mithss05" target="_blank" rel="noreferrer">View code on GitHub <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-web"><div class="browser-card"><div class="browser-head"><i></i><i></i><i></i></div><div class="browser-content"><div class="browser-sidebar"></div><div class="browser-main"><span></span><span></span><span></span><div class="browser-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></div><span class="visual-index">EXPERIENCE</span></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">WEB · SEO</span><span class="project-arrow">↗</span></div><h3>Company Website & SEO</h3><p>Developed and deployed a company website using WordPress, customized themes and plugins, and worked on on-page SEO and site structure.</p><div class="project-tags"><span>WordPress</span><span>SEO</span><span>HTML</span><span>CSS</span></div><div class="project-links"><a href="https://github.com/Mithss05" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a></div></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Project links currently point to your GitHub profile. Replace them with each project's repository URL when available.</p>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal"><div class="section-label"><span>04 / EXPERIENCE</span></div><h2>Where I've grown<span class="accent">.</span></h2><p>Learning through hands-on projects, collaboration, and delivery.</p></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-date">JUN 2025 — OCT 2025</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-company">HANSOFT TECHNOLOGIES <span>· COIMBATORE</span></div><h3>Full Stack Developer Intern</h3><p>Built a pneumonia detection application by connecting a CNN-based image-classification pipeline to a Flask backend and a web interface with MySQL integration.</p><div class="tags"><span>Python</span><span>Flask</span><span>MySQL</span><span>HTML/CSS</span></div></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">OCT 2025 — DEC 2025</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-company">LB ELITE TRAVELS <span>· REMOTE</span></div><h3>Web Development & SEO Intern</h3><p>Developed and deployed the company website, customized WordPress components, and improved page structure and on-page SEO.</p><div class="tags"><span>WordPress</span><span>SEO</span><span>Web Development</span></div></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">MAR 2026</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-company">DELOITTE · FORAGE <span>· VIRTUAL</span></div><h3>Technology Virtual Experience</h3><p>Completed a virtual experience involving Python-based data transformation, manufacturing dashboard architecture, and a structured system proposal.</p><div class="tags"><span>Python</span><span>Data Processing</span><span>System Design</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section">
+      <div class="container education-grid">
+        <div class="section-label reveal"><span>05 / EDUCATION</span><div class="label-rule"></div></div>
+        <div class="education-content reveal"><div class="education-top"><span class="education-icon">✳</span><span class="education-date">CURRENT</span></div><h2>M.Sc. in Software Systems</h2><p>Sri Krishna Arts and Science College · Coimbatore, Tamil Nadu</p><div class="education-foot"><span>CGPA: 7.7 (as stated in resume, through Semester VII)</span><span>Computer Science foundation</span></div><div class="certifications"><h3>Certifications</h3><div class="cert-list"><span>Google Generative AI</span><span>NPTEL Soft Skills Development</span><span>Frontend Development · Great Learning</span><span>Network Security · Great Learning</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="container contact-inner reveal">
+        <div class="section-label"><span>06 / CONTACT</span></div>
+        <p class="contact-kicker">HAVE A ROLE, IDEA, OR PROJECT?</p>
+        <h2>Let's build something<br><span class="gradient-text">meaningful.</span></h2>
+        <p class="contact-copy">I'm interested in software development, full-stack engineering, and applied AI opportunities. Let's connect.</p>
+        <div class="contact-actions"><a class="button button-primary" href="mailto:mithrabalraj25@gmail.com">Email me <span>↗</span></a><a class="button button-ghost" href="https://www.linkedin.com/in/mithra-balraj-59ab97325" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a class="button button-ghost" href="Mithra_B_Resume.pdf" target="_blank" rel="noreferrer">View resume <span>↗</span></a></div>
+        <div class="contact-email">mithrabalraj25@gmail.com</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">M</span><span>mithra<span class="brand-dot">.</span></span></a><span>Designed to keep learning. Built to keep shipping.</span><span>© <span id="year"></span> Mithra B</span></div></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
